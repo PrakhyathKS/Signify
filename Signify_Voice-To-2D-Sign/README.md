@@ -1,8 +1,7 @@
-# React + Vite
+# Signify_Voice-To-2D-Sign
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This model is developed to facilitate communication between normal users and deaf users, functioning as follows:
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- The spoken word by the normal user is checked against the database.
+- If the word is present in the database, the corresponding 2D sign is displayed in the user interface.
+- If the word is not found in the database, it is split into single letters and displayed as 2D signs for the deaf user.
